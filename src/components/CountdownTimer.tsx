@@ -54,7 +54,7 @@ export default function CountdownTimer() {
   }, []);
 
   return (
-    <div className="mt-14 sm:mt-16 w-full max-w-xl mx-auto p-4 sm:p-5 rounded-2xl bg-[#09112a]/80 border border-primary-container/30 backdrop-blur-xl shadow-[0_15px_40px_rgba(0,0,0,0.7),0_0_25px_rgba(246,202,101,0.12)] flex flex-col items-center">
+    <div className="mt-8 sm:mt-12 w-full max-w-xl mx-auto p-4 sm:p-5 rounded-2xl bg-[#09112a]/80 border border-primary-container/30 backdrop-blur-xl shadow-[0_15px_40px_rgba(0,0,0,0.7),0_0_25px_rgba(246,202,101,0.12)] flex flex-col items-center">
       <div className="flex items-center gap-2 text-secondary font-cinzel text-xs uppercase tracking-[0.25em] mb-3">
         <span>✦</span>
         <span>Contagem para o Alinhamento</span>
